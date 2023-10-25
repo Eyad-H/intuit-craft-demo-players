@@ -67,7 +67,7 @@ Implementing microservice which serves the contents of player.csv through REST A
   <!-- --> NOTE: replace the ${CONTAINED ID} with the value from previouse step 
 
 ## What would be done if I have more time?
-- <b>Implementing Security Authorization, Authintication & Data Encryption</b> - To make my system secured
+- <b>Implementing Security Authorization, Authentication & Encryption</b> - To make my system secured
 - <b>Using message Queue (Rabbit)</b> - To push the REST API requests into it and work asynchronizly
 - <b> Implementing Consumer Engine</b> -  To consume the messages from the Rabbit message queue 
 - <b> Use Relational databse</b> - For example MySQL DB to store the data inside it and support huge files in case the application might required to support huge files
