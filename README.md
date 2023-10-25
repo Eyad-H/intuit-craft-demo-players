@@ -11,9 +11,9 @@ Implementing microservice which serves the contents of player.csv through REST A
 
 
 ## **Assumptions:**
-1-File player.csv header structure is fixed and will not be changed, adding/removing headers will lead for error
-2-The player.csv file should be loaded once the application starts
-3-The format of the output of the REST APIs is JSON
+1-File player.csv header structure is fixed and will not be changed, adding/removing headers will lead for error <br>
+2-The player.csv file should be loaded once the application starts <br>
+3-The format of the output of the REST APIs is JSON <br>
 4-Null/Empty values will not be presented in the json response
 
 ## Prerequisites:
