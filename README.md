@@ -25,13 +25,13 @@ Implementing microservice which serves the contents of player.csv through REST A
 - Port 8080 to be used
 
 ## Run the project throught a Docker using the following steps:
-- Open terminal and clone the project 
-- cd to the project folder intuit-craft-demo-players
-- Navigate to resources folder under the project, intuit\src\main\resources and add the player.csv file
+- Open terminal and clone the project:  git clone https://github.com/Eyad-H/intuit-craft-demo-players.git
+- cd to the resources folder intuit-craft-demo-players\src\main\resources and add the player.csv file
+- Navigate back to intuit-craft-demo-players folder
 - run: mvn clean install
-- docker build -t intuitcraftdemoplayers/playerservice:0.0.1 .
-- docker images
-- docker run -it intuitcraftdemoplayers/playerservice:0.0.1  /bin/sh ${IMAGE ID}
+- run: docker build -t intuitcraftdemoplayers/playerservice:0.0.1 .
+- run: docker images
+- run: docker run -it intuitcraftdemoplayers/playerservice:0.0.1  /bin/sh ${IMAGE ID}
  <!-- replace the ${IMAGE ID} with the value from previouse step --> 
 
 
@@ -61,8 +61,8 @@ Implementing microservice which serves the contents of player.csv through REST A
 
 ## Stop the project through a Docker using the following steps:
 - Open terminal
-- docker ps
-- docker stop ${CONTAINED ID}
+- run: docker ps
+- run: docker stop ${CONTAINED ID}
   <!-- replace the ${CONTAINED ID} with the value from previouse step --> 
 
 ## What would be done if I have more time?
