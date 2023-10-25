@@ -31,8 +31,8 @@ Implementing microservice which serves the contents of player.csv through REST A
 - run: mvn clean install
 - run: docker build -t intuitcraftdemoplayers/playerservice:0.0.1 .
 - run: docker images
-- run: docker run -it intuitcraftdemoplayers/playerservice:0.0.1  /bin/sh ${IMAGE ID}
- <!-- replace the ${IMAGE ID} with the value from previouse step --> 
+- run: docker run -p 8080:8080 -it intuitcraftdemoplayers/playerservice:0.0.1  /bin/sh ${IMAGE ID}
+ <!-- --> NOTE: replace the ${IMAGE ID} with the value from previouse step.
 
 
 ## Testing the project:
@@ -63,7 +63,7 @@ Implementing microservice which serves the contents of player.csv through REST A
 - Open terminal
 - run: docker ps
 - run: docker stop ${CONTAINED ID}
-  <!-- replace the ${CONTAINED ID} with the value from previouse step --> 
+  <!-- --> NOTE: replace the ${CONTAINED ID} with the value from previouse step 
 
 ## What would be done if I have more time?
 - <b>Implementing Security Authorization, Authintication & Data Encryption</b> - To make my system secured
