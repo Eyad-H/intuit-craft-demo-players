@@ -63,6 +63,7 @@ Implementing microservice which serves the contents of player.csv through REST A
 - Open terminal
 - run: docker ps
 - run: docker stop ${CONTAINED ID}
+  
   <!-- --> NOTE: replace the ${CONTAINED ID} with the value from previouse step 
 
 ## What would be done if I have more time?
