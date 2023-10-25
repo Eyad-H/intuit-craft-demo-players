@@ -35,7 +35,7 @@ Implementing microservice which serves the contents of player.csv through REST A
  <!-- --> NOTE: replace the ${IMAGE ID} with the value from previouse step.
 
 
-## Testing the project:
+## Testing the project through Postman:
 
 1- Testing getAllPlayers API
 - URL: localhost:8080/api/players <br>
