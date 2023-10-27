@@ -24,7 +24,7 @@ Implementing microservice which serves the contents of player.csv through REST A
 - Postman
 - Port 8080 to be used
 
-## Run the project throught a Docker using the following steps:
+## Run the project through a Docker using the following steps:
 - Open terminal and clone the project:  git clone https://github.com/Eyad-H/intuit-craft-demo-players.git
 - cd to the resources folder intuit-craft-demo-players\src\main\resources and add the player.csv file
 - Navigate back to intuit-craft-demo-players folder
